@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Review Recipe";
+}
+
+
+<form asp-action="Index" method="post">
+    <table>
+        <tr>
+            <td>
+                <label><b>How would you rate that recipe?</b></label>
+            </td>
+            <td>
+                <select>
+                    <option value="">Choose an option</option>
+                    <option value="5">5 - Finger-licking good!</option>
+                    <option value="4">4 - Delish!</option>
+                    <option value="3">3 - Aiiight!</option>
+                    <option value="2">2 - Not Again!</option>
+                    <option value="1">1 - Yuk!</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label><b>Additional Comments</b></label></td>
+            <td><textarea style="height:70px; width:400px"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="submit">Submit Review</button>
+            </td>
+        </tr>
+    </table>
+</form>

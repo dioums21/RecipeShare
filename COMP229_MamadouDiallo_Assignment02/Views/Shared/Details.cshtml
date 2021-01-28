@@ -1,0 +1,31 @@
+﻿@model Recipe
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="RecipeId" />
+    <table>
+        <tr>
+            <td><label asp-for="Name">Name</label></td>
+            <td><input asp-for="Name" /></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Description">Description</label></td>
+            <td><input asp-for="Description" /></td>
+        </tr>
+        <tr>
+            <td><label as-for="Ingredients">Ingredients</label></td>
+            <td><textarea asp-for="Ingredients" style="height:70px; width:150px"></textarea></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Chef">Chef</label></td>
+            <td><input asp-for="Chef" /></td>
+        </tr>
+        <tr>
+            <td><label asp-for="PreparationTime">Preparation Time</label></td>
+            <td><input asp-for="PreparationTime" /></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Save</button></td>
+            <td><a class="btn5" asp-action="RecipeList">Cancel</a></td>
+        </tr>
+    </table>
+</form>

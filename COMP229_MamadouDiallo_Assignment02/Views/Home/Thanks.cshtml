@@ -1,0 +1,9 @@
+﻿@model Recipe
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Thank you";
+}
+
+<h3>Thank you Chef @Model.Chef, your @Model.Name recipe has been successfully saved!</h3>
+
+<h4>Want to add more recipes? Click <a asp-action="AddRecipe">here</a></h4>

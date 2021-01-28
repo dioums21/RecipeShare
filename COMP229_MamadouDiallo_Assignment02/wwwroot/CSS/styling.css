@@ -1,0 +1,111 @@
+﻿body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+    text-decoration-line: none;
+    font-weight: bold;
+    float: right
+}
+
+table {
+    border: none;
+    position: center;
+}
+
+table th {
+    border-bottom-style: solid
+}
+
+td {
+    padding: 20px;
+}
+
+.banner {
+    height: 350px;
+    width: 1000px;
+}
+
+fieldset {
+    border-radius: 10px;
+    background-color: #f7f7ff;
+    width: 800px;
+    height: auto;
+}
+
+button {
+    background-color: #ED5331;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn1:link, .btn1:visited, .btn1:hover, .btn1:visited {
+    background-color: #CB4101;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn2:link, .btn2:visited, .btn2:hover, .btn2:visited {
+    background-color: #B9A36F;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn3:link, .btn3:visited, .btn3:hover, .btn3:visited {
+    background-color: #A35F3F;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn4:link, .btn4:visited, .btn4:hover, .btn4:visited {
+    background-color: #EE9501;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn5:link, .btn5:visited, .btn5:hover, .btn5:visited {
+    background-color: #4B4D12;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input {
+    display: inline;
+}
